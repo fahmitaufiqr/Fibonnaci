@@ -18,7 +18,7 @@ public class Main {
             fib[i] = fib[i-1] + fib[i-2];
         }
         System.out.println("\nOutput:" );
-        for (int i = 0; i < n; i++) {
+        for (int i = n-1; i >= 0; i--) {
             System.out.print(fib[i] +  " ");
         }
     }
